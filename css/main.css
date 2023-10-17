@@ -7,7 +7,7 @@ main{}
   overflow:hidden;
   position:relative;
 }
-#main_intro > h2{display:none;}
+#main_intro > h2 {display:none;}
 #main_intro article{
   position:absolute;
   width:100%;top:46%;
@@ -25,7 +25,7 @@ main{}
   font-size: 16px;
 }
 #main_intro article a{
-  font-size:var(--f-size14);
+  font-size:var(--t-size14);
   color:var(--t-color02);
   text-decoration: underline;
   margin:0px 20px;
@@ -264,6 +264,7 @@ main section > h2{
   margin:40px auto 0 auto;
   overflow: hidden;
 }
+.e_banner h2 {display:none;}
 .e_banner > ul {
   display:flex;
   width : 4800px;
